@@ -33,4 +33,13 @@ public:
 	FGameplayAttributeData Armor;
 	ATTRIBUTE_ACCESSORS(UCharacterAttributeSet, Armor)
 
+		UPROPERTY(BlueprintReadOnly, Category = "Attributes")
+	FGameplayAttributeData Bubbles;
+	ATTRIBUTE_ACCESSORS(UCharacterAttributeSet, Bubbles)
+
+
+		UPROPERTY(BlueprintReadOnly, Category = "Attributes")
+	FGameplayAttributeData Mutation;
+	ATTRIBUTE_ACCESSORS(UCharacterAttributeSet, Mutation)
+
 };
